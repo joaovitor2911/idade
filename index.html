@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de aposta</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Casa de aposta dos guris </h1>
+    
+        <nav>
+            <ul>
+                <li><a href="#esportes">Esportes</a></li>
+                <li><a href="#ao vivo">Ao vivo</a></li>
+                <li><a href="#cassino">Cassino</a></li>
+            </ul>
+        </nav>
+
+        <section id="Esportes">
+            <h2>Esportes</h2>
+            <div class="card">
+                <img src="https://cdn.jornaldebeltrao.com.br/wp-content/uploads/2023/11/image-1024x640.jpeg" alt="">
+                <p>A casa de apostas esportivas vai receber em cima dos valores colocados em cada evento. Portanto, a quantia que os apostadores perderem com um palpite errado vai diretamente para os sites. Além disso, as plataformas também faturam com uma pequena parcela de retorno que é inserido nas odds dos eventos.As odds representam as probabilidades estimadas pelas casas de apostas para algo se concretizar dentro de um evento esportivo.</p>
+            </div>
+        </section>
+
+        <section id="aovivo">
+            <h2>Aovivo</h2>
+            <img src="https://images.futebolinterior.com.br/2021/05/0002050538779_img.jpg" alt="">
+            <div class="card">
+                <p>Apostas ao vivo são exatamente o que o nome diz: você pode apostar enquanto o jogo está acontecendo, do início ao fim. Durante uma partida, várias opções interessantes entram em ação para você se divertir e ter a chance de ganhar algum dinheiro.</p>
+            </div>
+        </section>
+
+        <section id="Cassino">
+            <h2>Cassino</h2>
+            <img src="https://www.noroesteonline.com/wp-content/uploads/2023/11/1-futuro-dos-cassinos-online.png" alt="">
+            <div class="card">
+                <p>Um casino ou cassino é uma Casa de Jogo onde se pode jogar através do uso do dinheiro. Os clientes dos cassinos podem jogar nas slot machines (caça-níqueis), roleta, blackjack, poker e outros jogos de fortuna e azar.</p>
+            </div>
+        </section>
+
+
+
+    <div class="container">
+        <h1>Validação de idade</h1>
+        <p>Insira a sua idade</p>
+        <input type="number" name="" id="idadeInput">
+        <button onclick="verificarIdade()">Verificar</button>
+    </div>
+
+    <script>
+        function verificarIdade() {
+            const idade = parseInt(document.getElementById("idadeInput").value)
+
+            if (idade >= 18) {
+                window.location.href = "permitido.html"
+            } else{
+                window.location.href = "npermitido.html"
+            }
+        }
+    </script>
+
+<footer>
+    <p> &copy; Casa de aposta dos guris | Todos os direitos reservados </p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
